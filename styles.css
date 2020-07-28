@@ -1,12 +1,16 @@
 body{
-  background-color: gray;
-  color: white;
+  /* background-color: gray;
+  color: white; */
+  padding: 20px 400px 20px 400px;
 }
 
 h1{
   text-align: center;
 }
 
+h3{
+  padding-top: 20px;
+}
 
 table{
   text-align: center;
@@ -17,10 +21,23 @@ table{
 th,td{
   padding: 10px;
 }
+
+ul{
+  list-style-type: none;
+}
+
 .line{
   border-right: solid 1px;
 }
 
 .endline{
   border-right: double;
+}
+
+.lessonmetadata{
+  text-align: left;
+}
+
+.footer{
+  padding-top: 30px;
 }
