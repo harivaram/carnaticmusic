@@ -1,30 +1,21 @@
 public class Converter
 {
 	public static void main(String[] args) {
-	    String format="<tr><td>%s</td><td>%s</td><td class=\"line\">%s</td><td>%s</td><td class=\"line\">%s</td><td>%s</td><td class=\"endline\">%s</td><td>%s</td><td>%s</td><td class=\"line\">%s</td><td>%s</td><td class=\"line\">%s</td><td>%s</td><td class=\"endline\">%s</td></tr>";
+			String header ="<thead><th colspan=\"4\" class=\"line\">I4</th><th colspan=\"2\" class=\"line\">O</th><th colspan=\"2\" class=\"endline\">I4</th></thead>";
+	    String format="<tr><td>%s</td><td>%s</td><td>%s</td><td class=\"line\">%s</td><td>%s</td><td class=\"line\">%s</td><td>%s</td><td class=\"endline\">%s</td></tr>";
 	    String[] lines =new String[]{
-        "r s d s , s , m g r m m p ,",
-"Pa du ma na , bha , Pa ra ma pu ru sha ,",
-"s d , d p m p d d p m g r s",
-"Pa ram , jyo , , ti Swa ru , pa , , ,",
-"r s d s , s , m g r m m p ,",
-"Vi du ra van , dhya , Vi ma la cha ri ta ,",
-"s d , d p m p d d p m g r s",
-"Vi ham , ga , , dhi Ro , ha na , , ,",
-"p m p d s d s r s d d s d p",
-"U da bhi Ni va , sa U ra ga Sha ya , na",
-"d d p p , p m r m m p , p ,",
-"U , nna to , nna ta Ma hi , ma , , ,",
-"d d p p , p m r , m m g r s",
-"ya du ku lo , tta ma ya , gna ra , ksha ka",
-"s , s d d d p p , p m g r s",
-"ya , gna shi , ksya ka ra , ma na , , ma",
-"d S , d p m p d d p m g r s",
-"Vi bhi , sha na pa , la ka , na mo na mo",
-"R S , d p m p d d p m g r s",
-"E bha , va ra da , ya ka , na mo na mo"
+        "S,,, S,n dp,, ,,mg m,,, ,,,g mp,, ,,dn",
+				"Sa,,, mba,si, va,,, ya,na, ve,,, ,,,ra jita,, ,,giri",
+				"S,,R n,,s d,,n p,,d m,,p m,g, m,,p d,,n",
+				"Sha,,mba vi,,ma no,,ha ra,,pa ra,,tpa ra,,kru pa,,ka ra,,Sri",
+				"S,R, Snn, S,nd d,n, dpp, d,mg sm,g mpdan",
+				"Nee,ve, gurudai, vam,bani ye,ve, lanuSe, vim,puchu Sada,Ma diniShiva",
+				"SRSn s,,, nSnd n,,, dndp d,,, pdpm p,,,",
+				"Paramada ya,,, Nidhivanu Chu,,, Maruvaku na,,, hrudayamu na,,,",
+				"ssss mmmm p,pp d,dd nsns n,dp dpmg mpdn",
+				"mahadeva mahaprabho Sun,dara Na,yaka Suravara da,yaka bhavabhaya harashiva"
 	    };
-
+		System.out.println(header);
 	   for(String line : lines){
 	        String[] nameArray = line.split(" ");
 		    String formatedText = String.format(format, nameArray);

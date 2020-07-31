@@ -1,7 +1,7 @@
 body{
-  /* background-color: gray;
-  color: white; */
-  padding: 20px 400px 20px 400px;
+  /* background-color: black;
+  color: grey;  */
+  margin: 20px 400px 20px 400px;
 }
 
 h1{
@@ -40,4 +40,8 @@ ul{
 
 .footer{
   padding-top: 30px;
+}
+
+.tablesubheading{
+  text-align: left;
 }
