@@ -1,8 +1,10 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+
 body{
   /* background-color: black;
   color: grey;  */
-  /* margin: 20px 400px 20px 400px; */
-  
+   margin: 20px 50px 20px 50px;
+
 }
 
 h1{
@@ -13,6 +15,7 @@ h3{
   padding-top: 20px;
 }
 
+
 table{
   text-align: center;
   vertical-align: center;
@@ -21,6 +24,7 @@ table{
 
 th,td{
   padding: 10px;
+  text-align: center;
 }
 
 ul{
